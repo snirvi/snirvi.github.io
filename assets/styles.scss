@@ -1,0 +1,46 @@
+/* You can add global styles to this file, and also import other style files */
+/*
+**
+** ====================== General ==================
+*/
+
+html,
+body {
+    height: 100%;
+    margin: 0px;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+span,
+label,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'poppins', 'Helvetica Neue', 'sans-serif';
+    color: #4b5675;
+}
+
+/*
+**
+** ====================== Inputs ==================
+*/
+input,
+textarea {
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: 'poppins', 'Helvetica', sans-serif;
+}
+
+span {
+    font-size: 12px;
+}
