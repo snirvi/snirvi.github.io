@@ -17,7 +17,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
 
           <span className={`status status-${project.status}`}>
             {project.status === "completed"
-              ? "Completed"
+              ? ""
               : "In Development"}
           </span>
         </div>
